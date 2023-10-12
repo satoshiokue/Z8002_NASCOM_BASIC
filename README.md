@@ -4,6 +4,9 @@ Nascom BASICはマイクロソフトが作成し、Grant Searleさんがサブ�
 
 ファイルは原作者の宣言にしたがってご利用ください。  
 
+https://github.com/vintagechips/emuz80/tree/main  
+こちらのemuz80/examples/EMUBASIC/にあるEMUBASIC.ASM ソースコードを元にしてコード変換を行いました。
+
 ターゲット SBCZ8002  
 アセンブラ Macro Assembler 1.42  
 
@@ -20,7 +23,7 @@ I/O
 # 8080/Z80 から Z8002 への変換ルール
 
 SCC通信のルーチンはUniversal MonitorのSBZ8002用を流用しました。  
-https://electrelic.com/electrelic/node/1317
+https://electrelic.com/electrelic/node/1317  
 
 ARITHMETIC PRECEDENCE TABLEの算術演算ルーチンアドレスが奇数バイトに格納されないようにPrecedence valueの後ろに1バイト追加してテーブルの単位を3バイトから4バイトに変更しました。  
 
