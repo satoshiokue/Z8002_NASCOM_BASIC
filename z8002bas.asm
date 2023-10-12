@@ -34,8 +34,11 @@ WR3_V:	EQU	0C0H	; 8 Bit, Enable
 WR5_V:	EQU	0E2H	; DTR, 8 Bit, RTS
 WR11_V:	EQU	50H	; Use BR output (for both Tx and Rx)
 BRGTC:	EQU	11	; Baud Rate Generator Time Contant
+
+	ORG	ROMTOP
 ;
 ;	Reset Vector
+
 	DW	0000H	; Dummy
 	DW	4000H	; FCW: System mode
 	DW	START	; Initial PC
