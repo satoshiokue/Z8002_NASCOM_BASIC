@@ -51,11 +51,6 @@ R15  SP
 RL0  PUSH/POP命令時のフラグ一時保存
 RH4  CHKSYNルーチンの引数
 RL4  演算命令前後のフラグ一時保護
-
-RH6  DIV3
-RL6  DIV4
-RH7  DIV2
-RL7  DIV1
 ——————————————————
 条件ジャンプ
 JP C	  JP C		Carry
